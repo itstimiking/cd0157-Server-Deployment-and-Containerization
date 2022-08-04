@@ -90,3 +90,5 @@ eksctl delete cluster simple-jwt-api  --region=us-east-2
 aws ssm delete-parameter --name JWT_SECRET
 
 kubectl get services simple-flask-deployment -o wide
+
+aws configure set default.region us-west-1
